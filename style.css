@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.section1 {
+  background-image: url(./assets/HERO\ BGbackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  max-height: 721px;
+  top: -3px;
+}
+.huddle {
+  min-width: 343px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.try {
+  background-color: #ffffff;
+  min-width: 96px;
+  height: 24px;
+  box-shadow: 0px 2px 7px 0px #00000018;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.try p {
+  font-size: 10px;
+  font-weight: 900;
+  line-height: 14px;
+  letter-spacing: 0px;
+  min-width: 51px;
+  height: 14px;
+  font-family: Open Sans;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 553px;
+  min-width: 304px;
+}
+main h1 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: center;
+  height: 72px;
+  color: #00252e;
+}
+main p {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.getstarted {
+  min-width: 240px;
+  height: 40px;
+  background-color: #ff52c1;
+  box-shadow: 2px 3px 6px 1px #ff52c12a;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.getstarted p {
+  min-width: 121px;
+  height: 16px;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.section2,
+.section3,
+.section4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 335px;
+  height: 488px;
+  box-shadow: 0px 0px 14px 0px #00000012;
+}
+.section2 h2,
+.section3 h2,
+.section4 h2 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #00252e;
+}
+.section2 p,
+.section3 p,
+.section4 p {
+  min-width: 256px;
+  color: #808e9a;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+footer {
+  min-width: 100%;
+  height: 785px;
+  background-color: #00252e;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  border: 10px solid #00252e;
+  margin-bottom: -10px;
+}
+footer div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+  color: #ffffff;
+}
+footer .div1 p {
+  min-width: 298px;
+  height: 72px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+footer .div1 img {
+  align-self: flex-start;
+}
+.div1 {
+  min-width: 338px;
+  height: 72px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.div1 p {
+  margin-left: 40px;
+}
+.div2 {
+  min-width: 160px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.div3 {
+  min-width: 180px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.div4 {
+  flex-direction: column;
+  align-items: flex-start;
+  height: 242px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.div5 {
+  position: absolute;
+  min-width: 120px;
+  height: 31px;
+  padding: 0px, 0.21px, 0px, 0px;
+  margin-bottom: -160%;
+  align-self: center;
+}
+.paragr {
+  position: absolute;
+  font-family: Poppins;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+  min-width: 243px;
+  height: 17px;
+  color: white;
+  margin-bottom: -180%;
+  align-self: center;
+}
+.section5 {
+  min-width: 352px;
+  max-width: 800px;
+  height: 176px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 15px;
+  margin: -80px;
+  z-index: 1;
+  margin-top: 30px;
+  box-shadow: 0px 0px 14px 0px #00000012;
+}
+.section5 h2 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.forfree {
+  box-shadow: 0px 3px 7px 0px #00252e39;
+  min-width: 200px;
+  height: 40px;
+  background-color: #ff52c1;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.forfree p {
+  font-family: Open Sans;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+@media screen and (min-width: 376px) {
+  .paragr {
+    margin-top: -1900px;
+  }
+  .section1 main,
+  .section2,
+  .section3,
+  .section4 {
+    flex-direction: row;
+    width: 1232px;
+    gap: 40px;
+  }
+  .section5 {
+    width: 800px;
+  }
+  .section5 h2 {
+    width: 631px;
+  }
+  .section2 p,
+  .section3 p,
+  .section4 p {
+    width: 488px;
+  }
+  .section1 main {
+    flex-direction: row;
+    margin: 30px;
+  }
+  .section1 h1 {
+    width: 536px;
+  }
+  .section1 img[src="./assets/Group 41 Copytablet.svg"] {
+    width: 642.52px;
+  }
+  .huddle {
+    width: 1180px;
+    margin-top: 30px;
+  }
+  .section2 img {
+    order: 2;
+    width: 440px;
+    height: 440px;
+  }
+  .section3 img {
+    width: 440px;
+    height: 440px;
+  }
+  .section4 img {
+    order: 2;
+    width: 440px;
+    height: 440px;
+  }
+
+  .section2 .grow {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  .div5 img {
+    margin-bottom: 1700px;
+  }
+}
